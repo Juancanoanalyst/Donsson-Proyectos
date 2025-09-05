@@ -1,0 +1,39 @@
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Virtualenv
+env/
+venv/
+.venv/
+**/entorno/
+.entorno/
+.env/
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Temporales de Windows
+*.lnk
+*.ini
+*.bak
+*.tmp
+*.swp
+
+# Streams de Windows
+*:Zone.Identifier
