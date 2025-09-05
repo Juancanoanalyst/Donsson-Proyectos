@@ -7,7 +7,7 @@ Thumbs.db
 *.code-workspace
 
 # Virtualenv
-env/
+*/.env/
 venv/
 .venv/
 **/entorno/
