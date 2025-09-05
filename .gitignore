@@ -1,0 +1,47 @@
+# VS Code
+.vscode/
+.vscode-server/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs y temporales
+*.log
+*.tmp
+*.bak
+
+# Datos pesados (ajusta si quieres trackear alguno)
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.zip
+*.gz
+*.rar
+*.7z
+*.tar
+
+# IDEs
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Otros
+*.ses

@@ -1,0 +1,58 @@
+# Ignorar directorios y archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+env/
+venv/
+.env
+.env/                  
+.entorno/              
+pip-log.log
+pip-delete-this-directory.txt
+
+# Ignorar archivos específicos de Odoo (si aplica)
+*.pydevproject
+*.settings
+.project
+.pydevproject
+*.log                  # Archivos de log de Odoo o cualquier aplicación
+*.sqlite               # Bases de datos SQLite (si Odoo usa una localmente)
+filestore/             # Directorio filestore de Odoo (datos adjuntos)
+
+# Ignorar directorios de desarrollo y construcción
+dist/
+build/
+*.egg-info/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg
+
+# Ignorar archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Ignorar archivos de Visual Studio Code (preferencias de usuario, no del proyecto)
+.vscode/               # La carpeta completa, ya que contiene configuraciones de usuario
+# Si tienes configuraciones del proyecto que quieres compartir, puedes ser más específico
+# Por ejemplo, para ignorar solo el settings.json del usuario pero no tasks.json
+# .vscode/settings.json
+
+# Ignorar archivos de sistema operativo
+.DS_Store              # macOS
+Thumbs.db              # Windows
+ehthumbs.db            # Windows
+*.aux                  # Archivos temporales de LaTeX (si usas)
+
+# Archivos de credenciales o configuración sensible (¡MUY IMPORTANTE!)
+*.env                  # Archivos de entorno que guardan variables sensibles (ej: claves API, contraseñas de DB)
+.env.* # Cualquier variación de archivo .env
+*.pem
+*.key
+*.crt
+*.conf                 # Si tu archivo de configuración de Odoo (.conf) tiene credenciales de DB
+# database.yaml        # Si tienes archivos de configuración de base de datos con credenciales
